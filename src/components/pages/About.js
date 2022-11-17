@@ -1,5 +1,7 @@
+import Col from "react-bootstrap/Col";
+
 function About() {
-  return <div>This is the about me</div>;
+  return <Col>This is the About me Page</Col>;
 }
 
 export default About;
