@@ -8,7 +8,7 @@ function Header({ handlePageChange }) {
   const links = ["About Me", "Portfolio", "Contact", "Resume"];
 
   return (
-    <Navbar className="navbar-dark bg-dark" expand="lg">
+    <Navbar className="navbar-dark bg-info user-select-none" expand="lg">
       <Container>
         <Navbar.Brand>{name}</Navbar.Brand>
         <Nav className="me-auto">

@@ -37,10 +37,8 @@ function PortfolioContainer() {
     <>
       <Header handlePageChange={handlePageChange} />
       <Container>
-        <Row className="justify-content-center">
-          <Col xs lg="12" className="fs-1 my-3">
-            {currentPage}
-          </Col>
+        <Row className="justify-content-center  user-select-none">
+          <Col className="col-sm-12 fs-1 my-3">{currentPage}</Col>
           {renderPage()}
         </Row>
       </Container>
