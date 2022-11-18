@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Header from "./Navbar";
+import Footer from "./Footer";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
@@ -41,6 +42,9 @@ function PortfolioContainer() {
           <Col className="col-sm-12 fs-1 my-3">{currentPage}</Col>
           {renderPage()}
         </Row>
+      </Container>
+      <Container>
+        <Footer />
       </Container>
     </>
   );
