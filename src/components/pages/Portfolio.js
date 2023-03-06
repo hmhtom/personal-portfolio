@@ -4,16 +4,16 @@ function Portfolio() {
   const projects = [
     {
       projectName: "Tech Event Planner",
-      type: "Express MySQL",
+      type: "MERN Stack",
       github: "https://github.com/hmhtom/tech-event-planner",
       deployed: "https://tech-event-planner.herokuapp.com/",
       imgURL: "tech-event-planner",
     },
     {
-      projectName: "Simple Notpad",
-      type: "Express",
-      github: "https://github.com/hmhtom/simple-notepad",
-      deployed: "https://simple-notepad-for-everyone.herokuapp.com/",
+      projectName: "NAS-Center",
+      type: "MERN Stack/GraphQL",
+      github: "https://github.com/hmhtom/NAS-Centre",
+      deployed: "https://nas-center.herokuapp.com/",
       imgURL: "simple-notpad",
     },
     {
@@ -38,10 +38,10 @@ function Portfolio() {
       imgURL: "code-quiz",
     },
     {
-      projectName: "Weather Dashboard",
-      type: "OpenWeather API",
-      github: "https://github.com/hmhtom/weather-dashboard",
-      deployed: "https://hmhtom.github.io/weather-dashboard/",
+      projectName: "E-Commerce Platform",
+      type: "MERN Stack/Apollo GraphQL",
+      github: "https://github.com/hmhtom/e-commerce-platform",
+      deployed: "https://github.com/hmhtom/e-commerce-platform",
       imgURL: "weather-dashboard",
     },
   ];

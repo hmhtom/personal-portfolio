@@ -8,7 +8,7 @@ function About() {
         <Image src="./Assets/images/avatar.jpg" roundedCircle thumbnail />
       </Col>
       <Col className="col-md-12 col-lg-6 fs-4">
-        Hi Im Alex, I am a full stack developer currently studying in U of T.
+        Hi Im Alex, I am a full stack developer.
       </Col>
     </>
   );

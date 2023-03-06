@@ -11,13 +11,6 @@ function Footer() {
         target="_blank">
         Visit me on Linkedin
       </a>
-      <br />
-      <a
-        href="https://stackoverflow.com/users/20535665/alex-he"
-        rel="noreferrer"
-        target="_blank">
-        Visit me on Stackoverflow
-      </a>
     </div>
   );
 }
