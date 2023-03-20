@@ -7,8 +7,32 @@ function About() {
       <Col className="col-md-12 col-lg-6">
         <Image src="./Assets/images/avatar.jpg" roundedCircle thumbnail />
       </Col>
-      <Col className="col-md-12 col-lg-6 fs-4">
-        Hi Im Alex, I am a full stack developer.
+      <Col className="col-md-12 col-lg-6 fs-4 text-light">
+        Alex He
+        <p className="text-light">
+          My name is Alex and I am a exprienced Fullstack Developer. I have
+          worked on various of projects My name is Alex and I am a exprienced
+          Fullstack Developer. I have worked on various of projectsMy name is
+          Alex and I am a exprienced Fullstack Developer. I have worked on
+          various of projectsMy name is Alex and I am a exprienced Fullstack
+          Developer. I have worked on various of projectsMy name is Alex and I
+          am a exprienced Fullstack Developer. I have worked on various of
+          projectsMy name is Alex and I am a exprienced Fullstack Developer. I
+          have worked on various of projectsMy name is Alex and I am a
+          exprienced Fullstack Developer. I have worked on various of projectsMy
+          name is Alex and I am a exprienced Fullstack Developer. I have worked
+          on various of projectsMy name is Alex and I am a exprienced Fullstack
+          Developer. I have worked on various of projectsMy name is Alex and I
+          am a exprienced Fullstack Developer. I have worked on various of
+          projectsMy name is Alex and I am a exprienced Fullstack Developer. I
+          have worked on various of projectsMy name is Alex and I am a
+          exprienced Fullstack Developer. I have worked on various of projectsMy
+          name is Alex and I am a exprienced Fullstack Developer. I have worked
+          on various of projectsMy name is Alex and I am a exprienced Fullstack
+          Developer. I have worked on various of projectsMy name is Alex and I
+          am a exprienced Fullstack Developer. I have worked on various of
+          projects
+        </p>
       </Col>
     </>
   );

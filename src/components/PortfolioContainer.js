@@ -7,7 +7,6 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 function PortfolioContainer() {
   //State:currentPage
@@ -37,15 +36,11 @@ function PortfolioContainer() {
   return (
     <>
       <Header handlePageChange={handlePageChange} />
-      <Container>
-        <Row className="justify-content-center  user-select-none">
-          <Col className="col-sm-12 fs-1 my-3">{currentPage}</Col>
-          {renderPage()}
-        </Row>
-      </Container>
-      <Container>
-        <Footer />
-      </Container>
+
+      <Row className="justify-content-center  user-select-none bg-dark">
+        {renderPage()}
+      </Row>
+      <Footer />
     </>
   );
 }
